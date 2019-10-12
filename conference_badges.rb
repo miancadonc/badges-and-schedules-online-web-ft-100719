@@ -12,6 +12,7 @@ def assign_rooms(names)
   names.each_with_index do |name, i|
     assignment_messages << "Hello, #{name}, you'll be assigned to room #{i}!"
   end
+  assignment_messages
 end
 
 #def printer 
