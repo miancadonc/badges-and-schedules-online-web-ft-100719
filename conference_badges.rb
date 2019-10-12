@@ -16,5 +16,6 @@ def assign_rooms(names)
 end
 
 def printer 
-  
+  badge_messages.each {|message| puts message}
+  assignment_messages.each {|message| puts message}
 end
