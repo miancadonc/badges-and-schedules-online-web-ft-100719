@@ -10,7 +10,7 @@ end
 def assign_rooms(names)
   assignment_messages = []
   names.each_with_index do |name, i|
-    assignment_messages << "Hello, #{name}, you are assigned to room #{i}!"
+    assignment_messages << "Hello, #{name}, you'll be assigned to room #{i}!"
   end
 end
 
