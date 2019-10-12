@@ -7,9 +7,9 @@ def batch_badge_creator(names)
   badge_messages
 end
 
-#def assign_rooms(names) 
-  
-#end
+def assign_rooms(names) 
+  "Hello,"  
+end
 
 #def printer 
   
