@@ -7,8 +7,11 @@ def batch_badge_creator(names)
   badge_messages
 end
 
-def assign_rooms(names) 
-  assignment messages = names.collect {|name| "Hello, #{name}, you are assigned to room #{}!"}
+def assign_rooms(names)
+  assignment_messages = []
+  names.each_with_index do |name, i|
+    assignment_messages << "Hello, #{name}, you are assigned to room #{i}!"
+  end
 end
 
 #def printer 
