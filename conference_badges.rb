@@ -1,5 +1,5 @@
-def badge_maker do
-  
+def badge_maker(name) do
+  puts "Hello, my name is #{name}."
 end
 
 def batch_badge_creator do
