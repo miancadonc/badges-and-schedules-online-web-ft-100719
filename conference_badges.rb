@@ -15,6 +15,6 @@ def assign_rooms(names)
   assignment_messages
 end
 
-#def printer 
+def printer 
   
-#end
+end
