@@ -7,10 +7,10 @@ def batch_badge_creator(names) do
   badge_messages
 end
 
-def assign_rooms(names) do
+#def assign_rooms(names) do
   
-end
+#end
 
-def printer do
+#def printer do
   
-end
+#end
